@@ -1,9 +1,9 @@
 [Plymouth Theme]
-Name=hexagon_alt_gruvbox
+Name=hexagon-alt-gruvbox
 Description=Hexagonal theme with gruvbox colors
 Comment=Originally created By Aditya Shakya (@adi1090x), recolored by @otaj
 ModuleName=script
 
 [script]
-ImageDir=/usr/share/plymouth/themes/hexagon_alt_gruvbox
-ScriptFile=/usr/share/plymouth/themes/hexagon_alt_gruvbox/hexagon_alt_gruvbox.script
+ImageDir=/usr/share/plymouth/themes/hexagon-alt-gruvbox
+ScriptFile=/usr/share/plymouth/themes/hexagon-alt-gruvbox/hexagon-alt-gruvbox.script

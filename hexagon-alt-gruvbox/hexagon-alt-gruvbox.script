@@ -34,12 +34,7 @@ state.time = 0.0;
 
 # cycle through all images
 for (i = 0; i < 357; i++)
-  num = i;
-  if (i < 10) 
-    num = "0" + num;
-  if (i < 100)
-    num = "0" + num
-  hexagon_images[i] = Image("progress-" + num + ".png");
+  hexagon_images[i] = Image("progress-" + i + ".png");
 hexagon_sprite = Sprite();
 
 # set image position
