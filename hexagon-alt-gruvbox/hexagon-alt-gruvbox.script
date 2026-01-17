@@ -33,7 +33,7 @@ state.time = 0.0;
 //--------------------------------- Refresh (Logo animation) --------------------------
 
 # cycle through all images
-for (i = 0; i < 357; i++)
+for (i = 0; i < 277; i++)
   hexagon_images[i] = Image("progress-" + i + ".png");
 hexagon_sprite = Sprite();
 
@@ -45,7 +45,7 @@ progress = 0;
 
 fun refresh_callback ()
   {
-    hexagon_sprite.SetImage(hexagon_images[Math.Int(progress / 2) % 357]);
+    hexagon_sprite.SetImage(hexagon_images[progress % 277]);
     progress++;
   }
   
