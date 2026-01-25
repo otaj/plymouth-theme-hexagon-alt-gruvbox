@@ -38,8 +38,8 @@ for (i = 0; i < 277; i++)
 hexagon_sprite = Sprite();
 
 # set image position
-hexagon_sprite.SetX(Window.GetX() + (Window.GetWidth(0) / 2 - hexagon_images[0].GetWidth() / 2)); # Place images in the center
-hexagon_sprite.SetY(Window.GetY() + (Window.GetHeight(0) / 2 - hexagon_images[0].GetHeight() / 2));
+hexagon_sprite.SetX(Window.GetX(0) + (Window.GetWidth(0) / 2 - hexagon_images[0].GetWidth() / 2)); # Place images in the center
+hexagon_sprite.SetY(Window.GetY(0) + (Window.GetHeight(0) / 2 - hexagon_images[0].GetHeight() / 2));
 
 progress = 0;
 
